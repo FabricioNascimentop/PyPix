@@ -26,4 +26,3 @@ if __name__ == "__main__":
       'caminho-certificados/server_ssl.crt.pem',
       'caminho-certificados/server_ssl.key.pem')
   app.run(host="0.0.0.0", port=50100, debug=True, ssl_context="adhoc")
-#Desenvolvido pela Consultoria Técnica da Efí

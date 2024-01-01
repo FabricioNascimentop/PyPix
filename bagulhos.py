@@ -1,4 +1,4 @@
-from gerencianet import Gerencianet
+from efipay import EfiPay
 
 credentials = {
     'client_id': 'Client_Id_49d4e517fe1e8aca725c1359c653d9df07293ba9',
@@ -7,7 +7,7 @@ credentials = {
     'certificate': 'C:\TheBigPython\PyProjects\PyPix\homologacao-535316-teste homologação_cert.pem'
 }
 
-gn = Gerencianet(credentials)
+gn = EfiPay(credentials)
 
 body = {
     'calendario': {
